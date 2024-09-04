@@ -12,8 +12,9 @@ const BookNow = () => {
           <p>
             Fortview Suites welcomes you to make your reservation and embark on
             an unforgettable journey in Kasaragod, Kerala.
-          </p>
-          <ul className="space-y-3 list-item list-inside list-disc">
+          </p>{" "}
+          <br />
+          <ul className="space-y-3 list-item ml-6 list-disc">
             <li>
               <a
                 className="text-blue-800 font-bold underline"

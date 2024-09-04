@@ -9,19 +9,20 @@ import Button from "./Button";
 const Details = () => {
   return (
     <>
-      <div className="grid lg:grid-cols-2 grid-cols-1 mt-7 ">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-7  ">
         <div>
           <img className="w-[240vh] lg:px-20 px-16" src={img1} />
         </div>
         <div className="lg:px-1  mt-4 px-5">
-          <p className="leading-7">
+          <p className="leading-8">
             Welcome to Fortview Suites, a luxurious and family-friendly hotel
             located in the picturesque city of Kasaragod, Kerala. Our hotel
             offers a unique blend of traditional hospitality and modern
             amenities, making it an ideal choice for families seeking an
             unforgettable vacation.
-          </p>
-          <p className="leading-7">
+          </p>{" "}
+          <br />
+          <p className="leading-8">
             Our rooms and suites are spacious and elegantly designed. Each room
             is equipped with state-of-the-art amenities, including flat-screen
             TVs, free Wi-Fi, air conditioning, and luxurious bedding to ensure
@@ -35,14 +36,15 @@ const Details = () => {
           <img className="w-[240vh] lg:px-20 px-16 " src={img2} />
         </div>
         <div className="lg:px-1  mt-4 px-5">
-          <p className="leading-7">
+          <p className="leading-8">
             In addition to being a family-friendly hotel, Fortview Suites is
             also an excellent choice for business travelers visiting Kasaragod,
             Kerala. Our rooms are designed to provide a comfortable and
             productive environment, with spacious work desks, ergonomic chairs,
             and ample lighting.
-          </p>
-          <p className="leading-7">
+          </p>{" "}
+          <br />
+          <p className="leading-8">
             At Fortview Suites, we pride ourselves on our exceptional service
             and our dedication to ensuring that our guests have a wonderful
             stay. Whether you're in town for business or leisure, we invite you
@@ -66,8 +68,9 @@ const Details = () => {
             Fortview Suites offers a wide range of amenities to ensure that our
             guests have a comfortable and enjoyable stay. Some of the amenities
             we offer include:
-          </p>
-          <ul className="space-y-3 list-item list-inside list-disc">
+          </p>{" "}
+          <br />
+          <ul className="space-y-3 list-item ml-5 list-disc">
             <li>Complimentary breakfast</li>
             <li>
               Luxury bedding - 10-inch Euro Top Memory Foam spring mattress{" "}
@@ -112,8 +115,9 @@ const Details = () => {
             city, making it an ideal base for exploring this beautiful region.
             Our hotel is just a short distance from the railway station and bus
             stand.
-          </p>
-          <ul className="space-y-3 list-item list-inside list-disc">
+          </p>{" "}
+          <br />
+          <ul className="space-y-3 list-item ml-5 list-disc">
             <li>Railway station - 1 km</li>
             <li>KSRTC bus stand - 0.6 km</li>
             <li>Old bus stand - 0.5 km</li>

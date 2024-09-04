@@ -41,7 +41,7 @@ const Amenities = () => {
             we've curated a collection of amenities designed to elevate your
             experience and leave you with lasting memories.
           </p>
-          <ul className="list-disc  space-y-5">
+          <ul className="list-disc ml-6  space-y-5">
             <li>
               <span className="font-bold text-blue-gray-900 ">
                 Comfortable Accommodations :

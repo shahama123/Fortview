@@ -11,7 +11,7 @@ const Location = () => {
           city, making it an ideal base for exploring this beautiful region. Our
           hotel is just a short distance from the railway station and bus stand.
         </p>
-        <ul className="list-disc list-inside space-y-2 ">
+        <ul className="list-disc ml-4 list-inside space-y-2 ">
           <li>Railway station - 900 meters</li>
           <li>KSRTC bus stand - 400 meters</li>
           <li>Old bus stand - 500 meters</li>

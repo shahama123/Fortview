@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
-import { IoIosClose, IoIosMenu } from "react-icons/io";
+import { IoIosClose } from "react-icons/io";
+import { IoMenu } from "react-icons/io5";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { NavbarItems } from "./NavbarItems";
 import { NavLink } from "react-router-dom";
@@ -19,23 +20,27 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed w-full bg-[#007bbf] z-50 py-2 lg:py-1">
+    <div className="fixed w-full bg-[#007bbf] z-50 ">
       <header className="flex items-center justify-between">
         {!isSearchOpen ? (
           <>
-            <div className="flex items-center">
+            <div className="flex items-center ">
               <div className="md:hidden mr-4">
                 <button onClick={toggleMenu} className="text-white text-2xl">
-                  {isMenuOpen ? <IoIosClose /> : <IoIosMenu className="ml-3" />}
+                  {isMenuOpen ? <IoIosClose /> : <IoMenu className="ml-3" />}
                 </button>
               </div>
-              <img className="w-12 " src={Logo} alt="logo" />
+              <img
+                className="w-12 lg:ml-5 ml-1 my-2 lg:my-1"
+                src={Logo}
+                alt="logo"
+              />
               <h4 className="title-font text-white text-xl ml-4">
                 Fortview Suites
               </h4>
             </div>
             <div className="hidden md:flex ml-36">
-              <ul className="flex mt-5  flex-wrap text-stone-50 font-semibold gap-8 items-center justify-center">
+              <ul className="flex mt-5    flex-wrap text-stone-50 font-semibold gap-8 items-center justify-center">
                 {NavbarItems.map((item, index) => (
                   <NavLink
                     className="text-white text-base hover:text-blue-400"
@@ -90,17 +95,17 @@ const Header = () => {
       </header>
       {/* Sliding Mobile Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-3/4 max-w-xs bg-[#007bbf] transform ${
+        className={`fixed top-0 left-0 h-full w-3/4 max-w-xs bg-[#007bbf]  transform ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
-        <div className="p-3">
+        <div className="p-3 ">
           <div className="flex justify-start mb-4">
             <button onClick={toggleMenu} className="text-white text-4xl">
               <IoIosClose />
             </button>
           </div>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col  gap-4">
             {NavbarItems.map((item, index) => (
               <NavLink
                 className={`text-white text-base pl-24 hover:text-blue-400 transition-opacity duration-300 ${

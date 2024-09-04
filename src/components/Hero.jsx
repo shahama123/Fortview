@@ -13,9 +13,9 @@ const Hero = (props) => {
       >
         <div className="absolute inset-0 bg-gray-800 bg-opacity-50 "></div>
       </div>
-      <div className="relative flex justify-center items-center text-white h-full">
-        <div className=" mt-20 text-center">
-          <img src={logo} alt="" className="w-24 " />
+      <div className="relative flex flex-col justify-center items-center text-white h-full">
+        <div className="mt-10 text-center">
+          <img src={logo} alt="logo" className="w-24 mx-auto" />
           <h2 className="title-font text-6xl font-extrabold">FORTVIEW</h2>
           <h2 className="title-font text-6xl font-extrabold">SUITES</h2>
           <p className="title-font mt-5 text-xl">
