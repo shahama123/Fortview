@@ -17,7 +17,7 @@ const ExploreKasaragod = () => {
   return (
     <div>
       <HeroComponent title="Kasaragod" imgLink={bgImage} />
-      <div className="mt-10 px-28 space-y-4">
+      <div className="mt-10 lg:px-28 px-10 space-y-4 text-blue-gray-700 text-base">
         <div className="space-y-4">
           <p>
             Kasaragod is a district in the northernmost part of Kerala, India.

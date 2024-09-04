@@ -2,7 +2,7 @@ import React from "react";
 
 const ImageGallery = ({ images }) => {
   return (
-    <div className="grid px-28 mt-10 gap-5 grid-cols-2">
+    <div className="grid lg:px-28 px-10 mt-10 gap-5 lg:grid-cols-2 grid-cols-1">
       {images.map((image, index) => (
         <div key={index} className="overflow-hidden rounded-lg shadow-md">
           <img

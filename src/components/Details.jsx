@@ -9,11 +9,11 @@ import Button from "./Button";
 const Details = () => {
   return (
     <>
-      <div className="flex mt-7 px-20">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-7 ">
         <div>
-          <img className="w-[240vh]" src={img1} />
+          <img className="w-[240vh] lg:px-20 px-16" src={img1} />
         </div>
-        <div className="px-8 mt-4 ">
+        <div className="lg:px-1  mt-4 px-5">
           <p className="leading-7">
             Welcome to Fortview Suites, a luxurious and family-friendly hotel
             located in the picturesque city of Kasaragod, Kerala. Our hotel
@@ -30,11 +30,11 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="flex mt-14 px-20">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-14 ">
         <div>
-          <img className="w-[240vh]" src={img2} />
+          <img className="w-[240vh] lg:px-20 px-16 " src={img2} />
         </div>
-        <div className="px-8 mt-4">
+        <div className="lg:px-1  mt-4 px-5">
           <p className="leading-7">
             In addition to being a family-friendly hotel, Fortview Suites is
             also an excellent choice for business travelers visiting Kasaragod,
@@ -51,10 +51,10 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="flex mt-[0.5px] p-20">
-        <div>
-          <img className="min-w-500 " src={img3} />
-          <img className="min-w-500 mt-8" src={img4} />
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-[0.5px] ">
+        <div className="">
+          <img className="min-w-500 px-20 " src={img3} />
+          <img className="min-w-500 mt-8 px-20" src={img4} />
         </div>
         <div className="px-8 mt-4">
           <div className="border-t-4 border-b-4 ">
@@ -94,10 +94,10 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="flex mt-[0.1px] px-6">
-        <div className="flex justify-center w-[240vh] px-8 mt-14 mb-8">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-[0.1px] ">
+        <div className=" w-[240vh] px-8 mt-14 mb-8">
           <iframe
-            className="w-11/12  h-[65vh]"
+            className="w-5/12 px-6 h-[65vh]"
             src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1947.6309355507224!2d74.987765!3d12.498794!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDI5JzU2LjAiTiA3NMKwNTknMTUuOSJF!5e0!3m2!1sen!2sus!4v1723672028125!5m2!1sen!2sus"
           ></iframe>
         </div>
@@ -123,11 +123,11 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="flex mt-3 px-6">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-3 ">
         <div>
           <img className="w-[250vh] h-[80vh] px-14" src={img5} />
         </div>
-        <div className="px-1 mt-4">
+        <div className="px-5 mt-4">
           <div className="border-t-4 border-b-4 ">
             <h1 className="text-blue-600 text-3xl mt-5 mb-5 font-extrabold">
               Contact Us

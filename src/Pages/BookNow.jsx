@@ -7,7 +7,7 @@ const BookNow = () => {
   return (
     <div>
       <HeroComponent title="Book Now" imgLink={image} />
-      <div className="mt-16 px-20">
+      <div className="mt-16 lg:px-20 px-8 text-blue-gray-800 text-base">
         <div className="space-y-3">
           <p>
             Fortview Suites welcomes you to make your reservation and embark on

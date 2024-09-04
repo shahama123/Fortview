@@ -5,7 +5,7 @@ const Location = () => {
   return (
     <div>
       <HeroComponent title="Location" imgLink={bgImage} />
-      <div className="mt-10 px-20 space-y-5 text-[#374151] font-normal">
+      <div className="mt-10 lg:px-20 px-8 space-y-5 text-[#374151] text-base">
         <p>
           Fortview Suites is located on Fort Road in the heart of Kasaragod
           city, making it an ideal base for exploring this beautiful region. Our

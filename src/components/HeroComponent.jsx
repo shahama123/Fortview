@@ -14,7 +14,7 @@ const HeroComponent = ({ title, imgLink }) => {
         </div>
         <div className="relative flex justify-center items-center text-white h-full">
           <div className="mt-20 text-center">
-            <h2 className="text-8xl font-semibold">{title}</h2>
+            <h2 className="title-font text-7xl font-extrabold">{title}</h2>
           </div>
         </div>
       </div>

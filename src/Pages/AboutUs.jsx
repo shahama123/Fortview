@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <div>
       <HeroComponent imgLink={bgImage} title="Fortview Suites" />
-      <div className="px-28 py-8 space-y-5">
+      <div className="lg:px-28 px-8 py-8 space-y-5 text-blue-gray-800 text-base">
         <h2>About Us</h2>
         <p>
           Welcome to Fortview Suites, a premier luxury hotel located in the
