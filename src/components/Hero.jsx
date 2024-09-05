@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/images.jpg";
+import bgImage from "../assets/bg.jpg";
 import logo from "../assets/logo2.png";
 
 const Hero = (props) => {
